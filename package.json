@@ -3,12 +3,12 @@
   "license": "MIT",
   "scripts": {
     "start": "yarn workspaces foreach -vp run start",
-    "start:theme": "yarn workspace @easyops-cn/docusaurus-search-local run start",
+    "start:theme": "yarn workspace @utybo/docusaurus-search-local run start",
     "start:website": "yarn workspace website run start",
     "build": "yarn workspaces foreach -tvp run build",
     "build:i18n": "cross-env BUILD_TYPE='i18n' yarn workspaces foreach -tvp run build",
     "build:preview": "cross-env BUILD_TYPE='preview' yarn workspaces foreach -tvp run build",
-    "build:theme": "yarn workspace @easyops-cn/docusaurus-search-local run build",
+    "build:theme": "yarn workspace @utybo/docusaurus-search-local run build",
     "build:website": "yarn workspace website run build",
     "serve": "yarn workspace website run serve",
     "test": "cross-env NODE_ENV='test' jest",
@@ -47,5 +47,8 @@
     "@docusaurus/theme-classic": "2.0.0-rc.1",
     "@docusaurus/theme-common": "2.0.0-rc.1",
     "@docusaurus/plugin-content-docs": "2.0.0-rc.1"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.com"
   }
 }
