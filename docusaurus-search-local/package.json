@@ -1,6 +1,6 @@
 {
   "name": "@utybo/docusaurus-search-local",
-  "version": "0.30.0-fork-1",
+  "version": "0.30.0-fork-2",
   "description": "An offline/local search plugin for Docusaurus v2",
   "repository": "https://github.com/utybo/docusaurus-search-local",
   "homepage": "https://github.com/utybo/docusaurus-search-local",
